@@ -72,7 +72,7 @@ GET http://localhost:8080/api/students
 
 ---
 
-### 2️⃣ Frontend (React + Tailwind)
+### 2️⃣ Frontend (React)
 
 1. Open terminal in `frontend/` folder.
 2. Install dependencies:
@@ -83,7 +83,7 @@ npm install
 ```bash
 npm run dev
 ```
-4. Open browser at `http://localhost:5173` to see the app.  
+4. Open browser at `http://localhost:3000` to see the app.  
 5. Use the form to **Add students**, view table, and delete entries.
 
 ---
@@ -134,13 +134,6 @@ gcloud app browse
 
 ---
 
-## 📸 Screenshots
-
-![Add Student](screenshots/add_student.png)  
-![Student List](screenshots/student_list.png)
-
----
-
 ## 🔗 References & Resources
 
 - [Spring Boot Guide](https://spring.io/guides)  
@@ -148,19 +141,4 @@ gcloud app browse
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)  
 - [React.js Documentation](https://react.dev/learn)  
 - [MySQL Workbench](https://www.mysql.com/products/workbench/)
-
----
-
-## 💡 Notes
-
-- Backend runs on **http://localhost:8080**  
-- Frontend runs on **http://localhost:5173**  
-- Make sure both backend and frontend servers are running together for full functionality.
-
----
-
-## 📦 Submission
-
-- GitHub repository link: `[Add your repo URL here]`  
-- Or zip the project folder and submit.
 
