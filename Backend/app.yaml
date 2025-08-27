@@ -1,0 +1,6 @@
+runtime: java17   # or java17
+env: standard
+# If your build produces an executable JAR in /target, either:
+# 1) copy/rename it to the same folder as app.yaml before deploy, or
+# 2) use buildpacks by deploying the source pom.xml (see below).
+entrypoint: 'java -jar demo-0.0.1-SNAPSHOT.jar'
